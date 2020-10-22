@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+    {% for product in products %}
+        <div class = "col-4">{{product}}</div>
+    {% endfor %}
+{% endblock %}
+
